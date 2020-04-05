@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="fig/ufcbelt.png">
+    <title>Oktagon</title>
+    <link rel="stylesheet" href="css/csstyle.css">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/print.css" rel="stylesheet" media="print">
+</head>
+<body>
+
+
+<header>
+    <p id="hornynadpis"><a href="article.html" class="transition">OKTAGON</a></p>
+    <section id="buttons">
+        <a href="https://www.google.sk/?hl=sk" class="button"> Info </a>
+        <a href="https://www.google.sk/?hl=sk" class="button"> Zápasy </a>
+        <a href="https://www.google.sk/?hl=sk" class="button"> Štatistiky </a>
+        <a href="https://www.google.sk/?hl=sk" class="button"> História </a>
+        <a href="https://www.google.sk/?hl=sk" class="button"> Sponzory </a>
+    </section>
+</header>
+
+<main>
+    <article>
+        <div>
+            <p>OKTAGON MMA je najväčšia Česko-Slovenská organizácia, ktorá usporiadavá turnaje bojových športov u nás. Zakladatelia a zároveň jeho majitelia sú Pavol Neruda a Ondřej Novotný.
+                OKTAGON ročne usporiadavá hneď niekoľko turnajov v tych nejväčších českých a slovenských arénách či mestách. Mimo to pripravuje pre všetkých športovných fanuškov jedinečnú reality show s profesionálnymi bojovníkmi nazývanú OKTAGON VÝZVA. Pripravuje tiež týždenník Oktagon MAGAZÍN, ktorý mapuje scénu bojových športov. Obľúbený PROJEKT X, ktorý sledoval cestu obyčajného človeka až do klietky, PROJEKT Y - čisto ženskú MMA reality show a v neposlednom rade talkshow o bojovníkoch a ľuďoch zo scény Oktagon Majk.
+                Organizácia má teraz viac ako 450.000 fanúšikov na sociálnych sieťach a YouTube, kde naše videá mala len za rok 2019 cez 30 mil. zhliadnutí.</p>
+        </div>
+    </article>
+</main>
+<footer>
+    <div id="list">
+        <h3>Najznámejší zápasnici</h3>
+        <ul>
+            <li> <a href="gabor.html">Gábor Borároš</a>
+            <li> <a href="attila.html">Attila Végh</a>
+            <li> <a href="david.html">Dávid Kozma</a>
+        </ul>
+    </div>
+
+    <div class="animation">
+        <img id="ufcbelt" src="fig/ufcbelt.png" alt="">
+    </div>
+    <div class="feedback">
+        <p class="opinion">Váš názor na stránku:</p>
+        <form id="opnFrm">
+            <label>Krstné meno:
+                <input type="text" id="fname" name="fname"  size="20" maxlength="20" spellcheck="true" lang="sk" required="">
+                <span class="error2" aria-live="polite"></span>
+            </label>
+            <br>
+            <label>Priezvisko:
+                <input type="text" id="lname" name="lname" size="20" maxlength="20" spellcheck="true" lang="sk" required="">
+                <span class="error1" aria-live="polite"></span>
+            </label>
+            <br>
+            <label>Email address:
+                <input type="text" id="mail" name="emailAdd" size="20" maxlength="50" spellcheck="false" lang="en" class="mail" required="">
+                <span class="error" aria-live="polite"></span>
+            <br>
+            </label>
+            Vaše pohlavie<br>
+            <input type="radio" id="male" name="gender" value="m">
+            <label for="male">Muž</label><br>
+            <input type="radio" id="female" name="gender" value="f">
+            <label for="female">Žena</label><br>
+            <input type="radio" id="notmanwoman" name="gender" value="x">
+            <label for="notmanwoman">Ani muž, ani žena</label><br><br>
+            <label>Pridajte url:
+                <input type="url" id="urlid" name="urlname" spellcheck="false" title="Pridajte url stránky"><br><br>
+            </label>
+            <label>Pridajte url obrázka:
+                <input type="url" id="urlid2" name="urlpicture" spellcheck="false" title="Pridajte url obrázka"><br><br>
+            </label>
+            Čo by ste zlepšili na tejto stránke:<br>
+            <div id="checkbox">
+                <input type="checkbox" id="rating1" name="rating1" value="Obsah stránky">
+                <label for="rating1"> Obsah stránky</label><br>
+                <input type="checkbox" id="rating2" name="rating2" value="Vzhľad stránky">
+                <label for="rating2"> Vzhľad stránky</label><br>
+                <input type="checkbox" id="rating3" name="rating3" value="Ciele stránky">
+                <label for="rating3"> Ciele stránky</label><br>
+                <input type="checkbox" id="rating4" name="rating4" value="Štruktúra stránky">
+                <label for="rating4"> Štruktúra stránky</label><br><br>
+            </div>
+            <br>
+
+            <label>Kľúčové slová:
+                <input type="text" id="keywordsId" name="keywords" list="keywords" spellcheck="false" lang="sk" title="Zadajte kľúčové slová"/>
+                <datalist id="keywords">
+                    <option>Bojovníci</option>
+                    <option>Oktagon</option>
+                    <option>Sponzory</option>
+                    <option>UFC</option>
+                </datalist>
+            </label><br>
+            Obľúbený zápasnik:<br>
+            <input type="radio" id="favWarrior1" name="favourite" value="Gábor Borároš">
+            <label for="favWarrior1">Gábor Borároš</label><br>
+            <input type="radio" id="favWarrior2" name="favourite" value="Attila Végh">
+            <label for="favWarrior2">Attila Végh</label><br>
+            <input type="radio" id="favWarrior3" name="favourite" value="Dávid Kozma">
+            <label for="favWarrior3">Dávid Kozma</label><br><br>
+
+            <label class="long" for="areaElm">Doplňte váš názor:</label>
+            <textarea name="area" title="Doplňte text" id="areaElm" lang="sk" spellcheck="true" required="" rows="5" cols="30" ></textarea>
+            <br>
+            <br>
+            <label class="long" for="relElm">Relevantnosť stránky:</label>
+            <input name="rel" title="Číslo od 1 do 5" id="relElm" spellcheck="false" type="number" min="1" max="5" placeholder="1-5" autocomplete="on">
+            <br>
+            <br>
+
+            <input id="submitId" type="submit" value="Submit">
+            <input id="resetId" type="reset" value="Reset">
+
+        </form>
+    </div>
+
+    <div class="feedback">
+        <p class="opinion">Názory iných návštevníkov stránky:</p>
+        <div id="opinionsContainer"></div>
+        <form id="lastFrm">
+            <input id="updateId" type="button" value="Update">
+        </form>
+    </div>
+</footer>
+
+<script id="TmplOneOpinion" type="text/template">
+    <section>
+        <h3>{{name}} <i>{{createdDate}}</i></h3>
+        <p><i>Email:</i> {{email}}</p>
+        <p><i>Komentár:</i> {{comment}}</p>
+        {{#favourite}}<p><i>Obľúbený bojovník:</i> {{favourite}}</p>{{/favourite}}
+        {{#keywords}}<p><i>Kľúčové slová:</i> {{keywords}}</p>{{/keywords}}
+        {{#url}}<p><i>URL: </i><a id="href" href="{{url}}" >{{url}}</a></p>{{/url}}
+        {{#urlPicture}}<p><i>Obrázok: </i><img id="urlPicture" src="{{urlPicture}}"  alt="Nepodarilo sa načítať obrázok"></p>{{/urlPicture}}
+        {{#relevancy}}<p><i>Ako hodnoti stránku:</i> {{relevancy}} (max. 5)</p>{{/relevancy}}
+        <p><i>Čo by návštevník vylepšil:</i>{{^ratings}} (Návštevník nezaškrtol ani jednu možnosť){{/ratings}}</p>
+        <ul>
+            {{#ratings}}
+            <li>{{.}}</li>
+            {{/ratings}}</ul>
+    </section>
+</script>
+
+<!--Including Mustache JavaScript code-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.1.0/mustache.min.js"
+        integrity="sha256-MPgtcamIpCPKRRm1ppJHkvtNBAuE71xcOM+MmQytXi8="
+        crossorigin="anonymous">
+</script>
+
+<script src="js/HelloWorld.js"></script>
+</body>
+</html>
