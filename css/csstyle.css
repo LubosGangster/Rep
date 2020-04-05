@@ -1,0 +1,338 @@
+body {
+    background-image: url("../fig/background.jpg");
+    background-color: #1A1919;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: contain;
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header{
+    margin-left: 10%;
+    margin-top: 3%;
+    /*margin-right: auto;*/
+}
+
+#hornynadpis{
+    font-size: 3rem;
+    width: 30%;
+    text-align: left;
+}
+#buttons{
+    text-align: left;
+    color: black;
+}
+.button{
+    background-color: #fbce20;
+    width: auto;
+    border: 2px solid white ;
+    color: black;
+    padding: 1% 1%;
+    text-align: center;
+    display: inline-block;
+    margin: 0.5%;
+    cursor: crosshair;
+}
+article {
+    position: relative;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: aliceblue;
+    font-size: 100%;
+    width: 45%;
+    min-width: 25%;
+    display: block;
+    height: auto;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#list {
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 120%;
+    width: 45%;
+    min-width: 25%;
+    position: relative;
+    height: auto;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.feedback{
+    background-color: #fbce20;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: black;
+    font-size: 100%;
+    border-radius: 50px;
+    border: 2px solid white;
+    padding: 2%;
+    width: 40%;
+    min-width: 25%;
+    display: block;
+    height: auto;
+}
+#href{
+    display: block;
+    font-size: 0.7rem;
+    width: 50%;
+    color: black;
+    text-align: justify;
+    text-justify: inter-word;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+#urlPicture{
+    display: block;
+    width: 40%;
+}
+
+.opinion{
+    text-align: center;
+    font-size: 150%;
+}
+
+#lname, #mail, #fname, #urlid, #urlid2, #keywordsId{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    width: 40%;
+}
+
+input.invalid{
+    border-color: #900;
+    background-color: #FDD;
+}
+
+input:focus.invalid {
+    outline: none;
+}
+
+/* This is the style of our error messages */
+.error, .error1, .error2 {
+    width  : 100%;
+    padding: 0;
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+}
+
+.error.active, .error1.active, .error2.active {
+    padding: 0.3em;
+}
+
+i{
+    font-size: 105%;
+    font-weight: bold;
+}
+label.long{
+    min-width: 8rem;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#submitId, #resetId, #updateId{
+    margin-left: 10%;
+}
+
+#checkbox{
+    display: inline-block;
+    margin: 2%;
+}
+
+.resizeable{
+    display: inline-block;
+    resize: horizontal;
+    width: 5rem;
+    overflow-x: hidden;
+    margin-left: 2%;
+}
+
+#home{
+    margin-top: 3%;
+}
+
+#gabor{
+    width: 25%;
+    height: 25%;
+}
+
+#obrazok{
+    margin-left: 25%;
+}
+
+#attila{
+    width: 50%;
+    height: 50%;
+    margin-top: 10%;
+}
+
+#david{
+    width: 50%;
+    height: 50%;
+    margin-top: 10%;
+}
+
+.tabulka {
+    margin-left: 12%;
+    margin-top: 5%;
+    border-collapse: collapse;
+    width: 35%;
+    color: aliceblue;
+    text-align: left;
+}
+
+.tabulka td, .tabulka th {
+    border: 1px solid #ddd;
+    font-size: 150%;
+    text-align: left;
+    margin-left: 10%;
+}
+.tabulka td{
+    text-align: center;
+}
+
+#textgab {
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-right: 40%;
+}
+.tabulka th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: gold;
+    color: aliceblue;
+}
+
+#name{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+#menu {
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+#info {
+    margin-left: 80%;
+    margin-bottom: 5%;
+}
+
+.transition:hover {
+    color: #fbce20;
+}
+
+.transition {
+    transition-property: color;
+    transition-duration: 1.5s;
+    transition-timing-function: steps(2, start), ease-in;
+    transition-delay: 1s;
+}
+
+.transform {
+    transform-origin: center;
+}
+
+#picture {
+    width: 5%;
+    height: 5%;
+}
+
+#picture:hover{
+    transform: rotateY(3600deg);
+    transition: all 8s;
+    /*rotation-point: center;*/
+}
+
+.animation{
+    position: relative;
+    animation-name: belt;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes belt {
+    0%   {margin-left:10% }
+    33%  {margin-left: 50%}
+    66%  {margin-left: 10%}
+    100% {margin-left: 50% }
+}
+
+#ufcbelt{
+    width: 50px;
+    height: auto;
+}
+
+@media only screen and (min-width: 651px) {
+    html {
+        min-width: 35rem;
+        max-width: 100rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+    html {
+        width: 100%;
+        height: 100%;
+    }
+
+    .button{
+        display: block;
+        width: 25%;
+    }
+
+    #hornynadpis{
+        font-size: 2rem;
+    }
+
+    #info{
+        margin-left: 10%;
+    }
+
+    .tabulka{
+        margin-left: 10%;
+        font-size: 0.4rem;
+    }
+
+    #feedback{
+        font-size: 0.8rem;
+    }
+
+    textarea{
+        display: block;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (min-height: 651px) {
+    html {
+        min-width: 35rem;
+        max-width: 100rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media only screen and (max-height: 650px) {
+    body{
+        background-color: #1A1919;
+        background-image: none;
+    }
+}
+

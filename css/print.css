@@ -1,0 +1,89 @@
+html{
+    font-family: "Times New Roman", sans-serif;
+    font-size: 12pt;
+    border: none;
+    color: black;
+}
+
+body{
+    border: none;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    font-size: 1.5rem;
+    color: black;
+}
+
+article{
+    border-style: none;
+    font-size: 1rem;
+    color: black;
+}
+
+#info {
+    margin: auto;
+}
+
+#attila{
+    margin-top: auto;
+    width: 75%;
+    height: auto;
+}
+
+
+.tabulka th{
+    border-color: black;
+    text-decoration: none;
+    color: black;
+}
+
+.tabulka td{
+    border-color: black;
+    text-decoration: none;
+    color: black;
+}
+
+
+#picture{
+    display: none;
+}
+
+#info {
+    color: black;
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin-left: 10%;
+}
+
+
+#heading{
+    font-size: 1.2rem;
+    color: black;
+}
+
+#heading2 {
+    font-size: 1.5rem;
+    color: black;
+}
+
+#obrazok{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#title {
+    font-size: 2rem;
+    color: black;
+}
+
+.button {
+    display: none;
+}
+
+
